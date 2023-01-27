@@ -4,7 +4,7 @@
 
 # Colors
 # black
-export foreground='#d4d4d5'
+export foreground='#e4e4e5'
 export background='#0E1115'
 
 export base00='#171C21'

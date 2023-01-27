@@ -82,7 +82,7 @@ alias 8='cd -8'
 alias 9='cd -9'
 alias _='sudo'
 alias afind='ack -il'
-
+alias zug_sl='sl'
 alias rd='rmdir'
 alias run-help='man'
 
@@ -376,7 +376,8 @@ alias java='java "$SILENT_JAVA_OPTIONS"'
 alias nhist="dbus-monitor \"interface='org.freedesktop.Notifications'\" | grep --line-buffered \"member=Notify\|string\""
 alias strel="xrdb -I$HOME/.config/Xresources $HOME/.config/Xresources/config.x && kill -USR1 $(pidof st)"
 
-alias fet.sh="$HOME/.bin/eyecandy/fet.sh"
+alias cock-e="hollywood"
+alias cock-h="echo 'centeral operating computed kernel for linux'"
 alias resrc="source $ZDOTDIR/.zshrc"
 alias rofi-shot='rofi -show drun -normal-window & disown'
 
