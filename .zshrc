@@ -1,5 +1,3 @@
-[ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
-
 while read file
 do 
   source "$ZDOTDIR/$file.zsh"
