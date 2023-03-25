@@ -8,6 +8,7 @@ function default_greeter() {
   c7="\033[1;36m"
   c8="\033[1;37m"
   reset="\033[1;0m"
+
   printf "\n $c1▇▇ $c2▇▇ $c3▇▇ $c4▇▇ $c5▇▇ $c6▇▇ $c7▇▇ $c8▇▇ $reset\n\n"
 }
 

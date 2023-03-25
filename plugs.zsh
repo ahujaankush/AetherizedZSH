@@ -1,7 +1,7 @@
 ZINIT_HOME="$HOME/.local/share/zsh/zinit"
 if [ ! -d "$ZINIT_HOME" ]; then
-  echo "ZINIT not found. Cloning..."
-  git clone --depth 1 https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+    echo "ZINIT not found. Cloning..."
+    git clone --depth 1 https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
 
 source "$ZINIT_HOME/zinit.zsh"
@@ -16,18 +16,18 @@ alias load='zinit load'
 autoload compinit
 compinit
 
-use romkatv/powerlevel10k 
+use romkatv/powerlevel10k
 use Aloxaf/fzf-tab
 use zdharma-continuum/fast-syntax-highlighting
 use zsh-users/zsh-autosuggestions
-use hlissner/zsh-autopair 
-use MichaelAquilina/zsh-you-should-use 
+use hlissner/zsh-autopair
+use MichaelAquilina/zsh-you-should-use
 
 # FZF tab is better. Fight me.
-# use marlonrichert/zsh-autocomplete 
+# use marlonrichert/zsh-autocomplete
 
 # ice wait'3' lucid
-# load zsh-users/zsh-history-substring-search 
+# load zsh-users/zsh-history-substring-search
 
 # ice wait'2' lucid
 # load zdharma-continuum/history-search-multi-word

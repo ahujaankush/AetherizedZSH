@@ -371,13 +371,11 @@ alias upgrub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias upfnt='sudo fc-cache -fv'
 alias kittythemes="kitty +kitten themes"
 
-SILENT_JAVA_OPTIONS="$JDK_JAVA_OPTIONS"
-alias java='java "$SILENT_JAVA_OPTIONS"'
 alias nhist="dbus-monitor \"interface='org.freedesktop.Notifications'\" | grep --line-buffered \"member=Notify\|string\""
 alias strel="xrdb -I$HOME/.config/Xresources $HOME/.config/Xresources/config.x && kill -USR1 $(pidof st)"
 
-alias cock-e="hollywood"
-alias cock-h="echo 'centeral operating computed kernel for linux'"
+alias cock="echo 'centeral operating computed kernel for linux'"
+alias jscarlata="echo 'classic'"
 alias resrc="source $ZDOTDIR/.zshrc"
 alias rofi-shot='rofi -show drun -normal-window & disown'
 
